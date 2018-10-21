@@ -14,9 +14,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        
-        //add header here
-        
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">ReactND - Coding Practice</h1>
+        </header>
         <div className="container">
           <input 
             type="text" 
